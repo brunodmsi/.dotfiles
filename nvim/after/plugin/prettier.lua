@@ -1,7 +1,7 @@
 local prettier = require("prettier")
 
 prettier.setup({
-  bin = 'prettier', -- or `'prettierd'` (v0.22+)
+  bin = 'prettierd', -- or `'prettierd'` (v0.22+)
   filetypes = {
     "css",
     "html",
@@ -14,4 +14,5 @@ prettier.setup({
     "typescriptreact",
     "yaml"
   },
+	config_precedence = "prefer-file"
 })

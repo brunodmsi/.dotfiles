@@ -29,4 +29,3 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/brunodmsi/packer.lua<CR>");
 
 vim.keymap.set("n", "<leader>fb", ":Telescope file_browser", { noremap = true })
-
