@@ -60,4 +60,6 @@ return require('packer').startup(function(use)
   use { 'folke/zen-mode.nvim' }
 
 	use { 'styled-components/vim-styled-components', branch = 'main' };
+
+	use { 'brenoprata10/nvim-highlight-colors' }
 end)
